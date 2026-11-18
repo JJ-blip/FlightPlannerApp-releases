@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="400" viewBox="0 0 680 400" role="img" font-family="Segoe UI, Arial, sans-serif">
+<title>Trying routes on a leg</title>
+<desc>Five candidate lines from one turnpoint to the next, straight and swung 4 and 8 km either side, with the winning line bent onto a ridge's windward face and around a patch of sink.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="220" y="100" width="250" height="22" fill="#1D9E75" opacity="0.2"/>
+<line x1="220" y1="96" x2="470" y2="96" stroke="#888780" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="340" cy="200" rx="60" ry="20" fill="#EF9F27" opacity="0.3"/>
+<g fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="5 4">
+<polyline points="80,210 340,110 600,210"/><polyline points="80,210 340,160 600,210"/><line x1="80" y1="210" x2="600" y2="210"/><polyline points="80,210 340,260 600,210"/><polyline points="80,210 340,310 600,210"/>
+</g>
+<path d="M80,210 C150,190 200,118 240,114 L450,114 C500,118 540,190 600,210" fill="none" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+<g fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"><circle cx="80" cy="210" r="7"/><circle cx="600" cy="210" r="7"/></g>
+<g fill="#5F5E5A" font-size="14" font-weight="600" text-anchor="middle"><text x="80" y="236">WP 1</text><text x="600" y="236">WP 2</text></g>
+<g fill="#5F5E5A" font-size="12">
+<text x="210" y="92" text-anchor="end">Ridge, lift on</text>
+<text x="210" y="108" text-anchor="end">windward face</text>
+<text x="340" y="234" text-anchor="middle">Sink</text>
+<text x="645" y="318" text-anchor="middle">Wind</text>
+<text x="106" y="352" dominant-baseline="central">Starting lines: straight, and swung 4 km and 8 km either side</text>
+<text x="106" y="378" dominant-baseline="central">Each bends toward lift and away from sink; the fastest wins</text>
+</g>
+<line x1="645" y1="300" x2="645" y2="240" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="60" y1="352" x2="96" y2="352" stroke="#888780" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="60" y1="378" x2="96" y2="378" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+</svg>

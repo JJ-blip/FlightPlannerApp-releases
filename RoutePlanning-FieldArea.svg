@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="390" viewBox="0 0 680 390" role="img" font-family="Segoe UI, Arial, sans-serif">
+<title>Reachability field area compared with the seed lines</title>
+<desc>Two legs of equal length. On a near east-west leg the field's box is long and narrow, about as wide as the 8 km seeds at mid-leg and wider near the ends. On a diagonal leg the box is a large square, far wider than the seeds.</desc>
+<defs><pattern id="grid" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M13 0H0V13" fill="none" stroke="#1D9E75" stroke-width="0.4" opacity="0.5"/></pattern></defs>
+<rect x="47" y="95.5" width="270" height="95" fill="#1D9E75" opacity="0.12"/>
+<rect x="47" y="95.5" width="270" height="95" fill="url(#grid)" stroke="#1D9E75" stroke-width="1"/>
+<g fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 4">
+<line x1="281.5" y1="131" x2="68.5" y2="169"/>
+<polyline points="281.5,131 179.5,175.6 68.5,169"/><polyline points="281.5,131 170.5,124.4 68.5,169"/>
+<polyline points="281.5,131 184,201 68.5,169"/><polyline points="281.5,131 166,98.8 68.5,169"/>
+</g>
+<circle cx="281.5" cy="131" r="16" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="68.5" cy="169" r="4" fill="#5F5E5A"/>
+<rect x="398" y="52" width="210" height="210" fill="#1D9E75" opacity="0.12"/>
+<rect x="398" y="52" width="210" height="210" fill="url(#grid)" stroke="#1D9E75" stroke-width="1"/>
+<g fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 4">
+<line x1="433.6" y1="226.4" x2="586.4" y2="73.6"/>
+<polyline points="433.6,226.4 528.4,168.4 586.4,73.6"/><polyline points="433.6,226.4 491.6,131.6 586.4,73.6"/>
+<polyline points="433.6,226.4 546.8,186.8 586.4,73.6"/><polyline points="433.6,226.4 473.2,113.2 586.4,73.6"/>
+</g>
+<circle cx="433.6" cy="226.4" r="16" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="586.4" cy="73.6" r="4" fill="#5F5E5A"/>
+<g fill="#5F5E5A" font-size="14" font-weight="600" text-anchor="middle">
+<text x="182" y="292">Near east–west leg (Kaslo leg 1)</text>
+<text x="503" y="292">Diagonal leg, same length</text>
+</g>
+<g fill="#5F5E5A" font-size="12">
+<text x="182" y="310" text-anchor="middle">Field 42 × 15 km; 8 km seed pokes out</text>
+<text x="503" y="310" text-anchor="middle">Field 32 × 32 km; seeds well inside</text>
+<text x="106" y="347" dominant-baseline="central">Field: every 250 m cell at every height, searched as one</text>
+<text x="106" y="372" dominant-baseline="central">Seeds: straight, ±4 km, ±8 km; each only bends locally</text>
+</g>
+<rect x="60" y="340" width="36" height="14" fill="#1D9E75" fill-opacity="0.25" stroke="#1D9E75" stroke-width="1"/>
+<line x1="60" y1="372" x2="96" y2="372" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 4"/>
+</svg>

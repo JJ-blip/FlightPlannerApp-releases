@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="380" viewBox="0 0 680 380" role="img" font-family="Segoe UI, Arial, sans-serif">
+<title>Turnpoint height choice as a trellis</title>
+<desc>Columns of candidate heights at each turnpoint, faint lines for every leg costed between heights, and the fastest sequence of heights chosen in one pass.</desc>
+<g stroke="#888780" stroke-width="0.6" opacity="0.5" fill="none">
+<line x1="110" y1="180" x2="270" y2="80"/><line x1="110" y1="180" x2="270" y2="120"/><line x1="110" y1="180" x2="270" y2="160"/><line x1="110" y1="180" x2="270" y2="200"/><line x1="110" y1="180" x2="270" y2="240"/>
+<line x1="270" y1="80" x2="430" y2="80"/><line x1="270" y1="80" x2="430" y2="120"/><line x1="270" y1="80" x2="430" y2="160"/><line x1="270" y1="80" x2="430" y2="200"/><line x1="270" y1="80" x2="430" y2="240"/>
+<line x1="270" y1="120" x2="430" y2="80"/><line x1="270" y1="120" x2="430" y2="120"/><line x1="270" y1="120" x2="430" y2="200"/><line x1="270" y1="120" x2="430" y2="240"/>
+<line x1="270" y1="160" x2="430" y2="80"/><line x1="270" y1="160" x2="430" y2="120"/><line x1="270" y1="160" x2="430" y2="160"/><line x1="270" y1="160" x2="430" y2="200"/><line x1="270" y1="160" x2="430" y2="240"/>
+<line x1="270" y1="200" x2="430" y2="80"/><line x1="270" y1="200" x2="430" y2="120"/><line x1="270" y1="200" x2="430" y2="160"/><line x1="270" y1="200" x2="430" y2="200"/><line x1="270" y1="200" x2="430" y2="240"/>
+<line x1="270" y1="240" x2="430" y2="80"/><line x1="270" y1="240" x2="430" y2="120"/><line x1="270" y1="240" x2="430" y2="160"/><line x1="270" y1="240" x2="430" y2="200"/><line x1="270" y1="240" x2="430" y2="240"/>
+<line x1="430" y1="80" x2="590" y2="240"/><line x1="430" y1="120" x2="590" y2="240"/><line x1="430" y1="200" x2="590" y2="240"/><line x1="430" y1="240" x2="590" y2="240"/>
+</g>
+<polyline points="110,180 270,120 430,160 590,240" fill="none" stroke="#1D9E75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#888780">
+<circle cx="270" cy="80" r="5"/><circle cx="270" cy="160" r="5"/><circle cx="270" cy="200" r="5"/><circle cx="270" cy="240" r="5"/>
+<circle cx="430" cy="80" r="5"/><circle cx="430" cy="120" r="5"/><circle cx="430" cy="200" r="5"/><circle cx="430" cy="240" r="5"/>
+</g>
+<g fill="#9FE1CB" stroke="#0F6E56" stroke-width="1">
+<circle cx="110" cy="180" r="7"/><circle cx="270" cy="120" r="7"/><circle cx="430" cy="160" r="7"/><circle cx="590" cy="240" r="7"/>
+</g>
+<g fill="#5F5E5A" font-size="12">
+<text x="40" y="84" dominant-baseline="central">+2000 m</text>
+<text x="40" y="244" dominant-baseline="central">Floor</text>
+<text x="110" y="290" text-anchor="middle">gate height</text>
+<text x="270" y="290" text-anchor="middle">21 heights</text>
+<text x="430" y="290" text-anchor="middle">21 heights</text>
+<text x="590" y="290" text-anchor="middle">required arrival</text>
+<text x="106" y="326" dominant-baseline="central">One leg costed between two heights (cheapest of 4 lines)</text>
+<text x="106" y="352" dominant-baseline="central">Fastest sequence, found in one pass; each leg then replanned once</text>
+</g>
+<g fill="#5F5E5A" font-size="14" font-weight="600" text-anchor="middle">
+<text x="110" y="272">Start</text><text x="270" y="272">WP 1</text><text x="430" y="272">WP 2</text><text x="590" y="272">Finish</text>
+</g>
+<line x1="60" y1="326" x2="96" y2="326" stroke="#888780" stroke-width="0.6"/>
+<line x1="60" y1="352" x2="96" y2="352" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+</svg>
